@@ -7,11 +7,14 @@
 .container-header {
   width: 100%;
   margin: 0 auto;
-  display: flex;
   padding: 10px;
   background-color: lightblue;
-  justify-content: center;
   /* flex-direction: row; */
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 /* header */
@@ -40,3 +43,60 @@
 /* end-header */
 
 /* main-sections */
+
+.section-1 {
+  background-color: blue;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background-color: pink;
+  border: 1px dotted black;
+  border-radius: 5px;
+  width: 60%;
+  height: 250px;
+}
+
+/* end-section-1 */
+
+.section-2 {
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 {
+  background-color: grey;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-4 {
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-5 {
+  background-color: grey;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer-sections */
