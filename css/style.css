@@ -217,12 +217,13 @@
 
 .footer-box {
   background-color: lightgreen;
-  border: 1px dotted black;
-  width: 60%;
+  width: 90%;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 .f-logo {
