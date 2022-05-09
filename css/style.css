@@ -5,10 +5,12 @@
 }
 
 .container-header {
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   padding: 10px;
+  background-color: lightblue;
+  justify-content: center;
   /* flex-direction: row; */
 }
 
@@ -17,13 +19,13 @@
 .logo {
   /* text-align: left; */
   background-color: yellow;
-  width: 25%;
+  width: 20%;
   border: 1px dotted black;
 }
 
 .navigation {
   text-align: center;
-  width: 50%;
+  width: 40%;
   background-color: yellow;
   border: 1px dotted black;
 }
@@ -31,8 +33,10 @@
 .login {
   text-align: right;
   background-color: yellow;
-  width: 25%;
+  width: 20%;
   border: 1px dotted black;
 }
 
 /* end-header */
+
+/* main-sections */
