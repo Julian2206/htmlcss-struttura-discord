@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  /* flex-direction: row; */
+}
+
+/* header */
+
+.logo {
+  /* text-align: left; */
+  background-color: yellow;
+  width: 25%;
+  border: 1px dotted black;
+}
+
+.navigation {
+  text-align: center;
+  width: 50%;
+  background-color: yellow;
+  border: 1px dotted black;
+}
+
+.login {
+  text-align: right;
+  background-color: yellow;
+  width: 25%;
+  border: 1px dotted black;
+}
+
+/* end-header */
